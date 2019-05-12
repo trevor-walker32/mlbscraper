@@ -7,7 +7,7 @@ This repository uses the beautiful soup library to scrape the  mlb website for t
 Clone a copy of MLBscraper onto your machine and
 cd into that directory.
 
-First you need to run:
+First you need to run:  
 pip install beautifulsoup4  
 pip install requests
 
