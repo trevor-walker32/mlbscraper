@@ -37,6 +37,12 @@ crontab scraper.cron
 make sure it worked with:  
 crontab -l
 
+scrape responsibly, never scrape more than a couple times a week. This could
+overload the server and get you blacklisted from the site!
+
+Enjoy your daily structured data in the form of a JSON file, located in the project 
+directory. 
+
 # Future Plans
  
 1. Make a web app for sending alerts if a player is 
