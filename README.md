@@ -1,24 +1,44 @@
 # MLBscraper
 
-This repository uses the beautiful soup library to scrape the  mlb website for the latest statistics. 
+This repository uses the beautiful soup library to scrape the mlb website every weekday at 10:30pm for the latest statistics. 
 
 # Getting Started
+
+Make sure you have a up to date Framework of Python (Python3.6 <)
+
+https://www.python.org/downloads/
 
 Clone a copy of MLBscraper onto your machine and
 cd into that directory.
 
 First you need to run:  
-pip install beautifulsoup4  
-pip install requests
+pip3 install beautifulsoup4  
+pip3 install requests
 
 in that project directory.
 
 Next, run python3 mlbscraper.py and enjoy your
 structured data :)
 
-# Future Plans
+# Configuring Automatic Scraping
 
-1. Automatically scrape the site on a weekly basis  
-2. Make a web app for sending alerts if a player is 
+Follow all of the steps in the Getting Started section. 
+
+Then cd into the project directory to modify the .cron file. 
+
+Change the <username> to your username on your machine. 
+	
+Make sure the path to python3.6 is correct, and that you have all of
+the right packages installed. 
+
+Run the command:
+crontab scraper.cron 
+
+make sure it worked with:
+crontab -l
+
+# Future Plans
+ 
+1. Make a web app for sending alerts if a player is 
 	beginning a hit streak.  
-3. Plot the stat history of each player.
+2. Plot the stat history of each player.
