@@ -31,10 +31,10 @@ Change the <username> to your username on your machine.
 Make sure the path to python3.6 is correct, and that you have all of
 the right packages installed. 
 
-Run the command:
+Run the command:  
 crontab scraper.cron 
 
-make sure it worked with:
+make sure it worked with:  
 crontab -l
 
 # Future Plans
