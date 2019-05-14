@@ -37,6 +37,9 @@ crontab scraper.cron
 make sure it worked with:  
 crontab -l
 
+Check out the cron documentation:  
+http://man7.org/linux/man-pages/man5/crontab.5.html
+
 scrape responsibly, never scrape more than a couple times a week. This could
 overload the server and get you blacklisted from the site!
 
