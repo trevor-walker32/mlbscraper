@@ -1,1 +1,1 @@
-30 22 * * 1-5 cd ~/Desktop/newProject/ && /Library/Frameworks/Python.framework/Versions/3.6/bin/python3 /Users/trevorwalker/Desktop/newProject/mlbscraper.py >/dev/null 2>&1
+30 22 * * 1-5 cd ~/Desktop/newProject/ && /Library/Frameworks/Python.framework/Versions/3.6/bin/python3 /Users/<username>/Desktop/newProject/mlbscraper.py >/dev/null 2>&1
